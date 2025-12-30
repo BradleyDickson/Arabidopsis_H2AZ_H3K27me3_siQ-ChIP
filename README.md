@@ -27,7 +27,9 @@ Clone this repo and link all your bed files to the new cloned directory. Bed fil
 - - Mass is the collected mass, volume is the volume that the same was in (ip or input), ratio is the ratio of ip to the sample. For an ip the ratio is 1, for an input the ratio is larger than one.
 - An example IP and input parameter file: ```5.4 500 1``` for an IP and ```54.1 50 10``` for an input. 
 
-With these prereqs satisfied, the code is run as ```./newMain.sh SAMPLE_1.bed SAMPLE_2.bed SAMPLE_3.bed SAMPLE_4.bed ...``` **It is assumed that you have N cpu for N samples**.
+With these prereqs satisfied, the code is run as ```./newMain.sh SAMPLE_1.bed SAMPLE_2.bed SAMPLE_3.bed SAMPLE_4.bed ...``` 
+
+**It is assumed that you have N cpu for N samples**.
 
 The arabidopsis data can be regenerated from sequencing outcomes and parameter files using:
 ~~~~
