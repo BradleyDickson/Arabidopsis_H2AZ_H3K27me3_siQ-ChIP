@@ -86,7 +86,7 @@
          weight=0d0
          do j=max(1,i-nstep),min(jln,i+nstep)!assume some similarity because or repeats
             do k=max(1,i-nstep),min(kln,i+nstep)
-               if(nchr(i).eq.n2chr(j).and.nchr(j).eq.n3chr(k))then
+               if(nchr(i).eq.n2chr(j).and.nchr(i).eq.n3chr(k))then
                   if(istr(i).lt.i2nd(j).and.ind(i).gt.i2str(j))then!first two interesct
                      ileft=min(istr(i),i2str(j))
                      irght=max(ind(i),i2nd(j))
